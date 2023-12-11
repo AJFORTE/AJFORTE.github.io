@@ -2,7 +2,7 @@
 title: "AJ Forte" 
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: file:///C:/Users/aidan/Downloads/image0.jpeg
+  image: img/profile.png
   image-width: 16em
   image-shape: round # rectangle  round  rounded
   
@@ -25,6 +25,7 @@ about:
 
 ---
 
+# About
 
 AJ Forte majors in Accounting at SUNY Geneseo. While aiming to acquire his CPA, AJ enjoys spending time with friends and playing basketball.
 

@@ -1,5 +1,5 @@
 ---
-title: "Insightful Analytics<br><br>"
+title: "<br>AJ's Blog<br>"
 listing:
   contents: posts
   type: default
@@ -13,3 +13,5 @@ listing:
 
 page-layout: full
 ---
+
+
