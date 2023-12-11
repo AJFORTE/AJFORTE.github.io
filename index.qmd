@@ -1,41 +1,40 @@
 ---
-title: "YOUR NAME" 
+title: "AJ Forte" 
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: file:///C:/Users/aidan/Downloads/image0.jpeg
   image-width: 16em
   image-shape: round # rectangle  round  rounded
   
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/aidan-forte-938055214/?trk=public-profile-join-page
     - icon: instagram
       text: Instagram
-      href: https://instagram.com
+      href: https://www.instagram.com/aidanforte_/
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/ajforte
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: https://AJFORTE.github.io/Resume-Aidan-Forte.pdf
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:ajf22@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+AJ Forte majors in Accounting at SUNY Geneseo. While aiming to acquire his CPA, AJ enjoys spending time with friends and playing basketball.
 
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Business Administration 
+B.S. in Accounting | Aug 2022 - May 2026 <br>
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+Administrator at Dermatologist | Accounting Intern
 
 
