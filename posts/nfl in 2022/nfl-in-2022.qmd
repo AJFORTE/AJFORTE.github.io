@@ -1,5 +1,16 @@
-# NFL in 2022
+---
+title: "NFL in 2022"
+author: "AJ Forte"
+date: "2023-12-11"
+categories: [Sports, code, data analysis]
+image: "ai_nfl.png"
 
+execute: 
+  warning: false
+  message: false
+  
+toc: true
+---
 
 The following is the data.frame for Question 2.
 
@@ -247,4 +258,5 @@ observations (n_pass) for each posteam and passer. Then, it finds the third quan
 and filters the data to include only passers with observations greater than or equal to the third
 quantile level. Finally, it arranges the data by descending mean value of epa and selects the top 10
 passers.
+
 
