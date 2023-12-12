@@ -1,0 +1,149 @@
+---
+title: "Spotify"
+author: "AJ Forte"
+date: "2023-12-11"
+categories: [Restaurants, code, data analysis]
+image: ""
+
+execute: 
+  warning: false
+  message: false
+  
+toc: true
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+library(ggplot2)
+library(dplyr)
+
+theme_set(theme_ipsum()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(10,0,0,0)),
+                axis.title.y  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(0,10,0,0))
+                )
+          )
+```
+
+Let's analyze the `restaurant_data`` data:
+
+```{r}
+spotify_data <- read_csv("https://bcdanl.github.io/data/spotify_all.csv")
+```
+
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(spotify_data) 
+```
+
+
+
+## Variable Description for `restaurant_data`` data.frame
+
+The following describes the variables in the `restaurant_data`` data.frame.
+
+
+- `pid`: playlist ID; unique ID for playlist
+
+- `playlist_name`: a name of playlist
+
+- `pos`: a position of the track within a playlist (starting from 0)
+
+- `artist_name`: name of the track’s primary artist
+
+- `track_name`: name of the track
+
+- `duration_ms`: duration of the track in milliseconds
+
+- `album_name`: name of the track’s album
+
+
+## Purchase Patterns
+
+
+We'll delve into the relationship between playlist position (pos) and the ten most popular artists in the spotify dataset. The analysis involves identifying and ranking these artists based on their frequency of occurrence. Here are key insights derived from the subsequent histogram visualization:
+
+ - Distribution Pattern
+
+ - Early Playlist Placement
+
+ - Consistency Across Artists
+
+This analysis provides valuable insights into user preferences regarding the positioning of songs by popular artists within playlists, shedding light on the dynamics of playlist curation. The next steps will involve further exploration and visualizations to deepen our understanding of these patterns. Let's continue the exploration by examining average quantity purchased and spending habits per purchase across brands.
+
+
+```{r}
+best_artists <- spotify_data %>% 
+  group_by(artist_name) %>% 
+  mutate(n_popular_artist = n()) %>% 
+  ungroup() %>% 
+  mutate( artist_ranking = dense_rank( desc(n_popular_artist) ) ) %>% 
+  filter( artist_ranking <= 10) 
+```
+
+
+```{r}
+ggplot(best_artists,
+       aes(x = pos, y = fct_reorder(artist_name, -artist_ranking)) ) +
+  geom_boxplot() +
+  stat_summary(
+    fun = mean,
+    color = 'red'
+  )
+```
+
+
+The provided ggplot code generates a boxplot to visualize the distribution of the variable pos (position of a song in a playlist) across different artists in the Q1c dataset. The y-axis is reordered based on the ranking of artists (artist_ranking), displaying the data for each artist in a descending order.
+
+Position Spread: The boxplot shows the distribution of pos values for each artist, providing a visual representation of the spread and central tendency of playlist positions.
+
+Median Line: The line inside each box represents the median position of songs for the respective artist.
+
+Interquartile Range (IQR): The boxes indicate the IQR, depicting the range where the majority of playlist positions lie.
+
+Outliers: Any points beyond the whiskers of the boxplot are considered outliers, showing instances where playlist positions deviate significantly from the norm for a given artist.    
+
+
+Now, this next plot will show the relationship between playlist positions and the duration of the tracks
+
+```{r}
+ggplot(spotify_data, aes(x = pos, y = duration_ms)) +
+  geom_point(color = 'blue', alpha = 0.7) +
+  labs(title = 'Scatter Plot of Playlist Positions and Track Durations',
+       x = 'Playlist Position',
+       y = 'Track Duration (ms)') +
+  scale_y_continuous(labels = scales::comma_format(scale = 1e-3, suffix = 's'))
+```
+
+This scatter plot visualizes the relationship between playlist positions (pos) and track durations (duration_ms). Each point represents a track, and the color and transparency add a visual flair to the distribution.
+
+Next, we'll look at the top 5 artist on Spotify solely judged by their playlist frequency
+
+```{r}
+top_artists <- spotify_data %>%
+  group_by(artist_name) %>%
+  summarise(playlist_count = n()) %>%
+  arrange(desc(playlist_count)) %>%
+  slice_head(n = 5)
+
+ggplot(top_artists, aes(x = fct_reorder(artist_name, playlist_count), y = playlist_count)) +
+  geom_bar(stat = 'identity', fill = 'green') +
+  labs(title = 'Top 5 Artists by Playlist Frequency',
+       x = 'Artist Name',
+       y = 'Number of Playlists')
+```
+
+
+This bar chart identifies and visualizes the top 10 artists with the highest playlist frequency. It uses the artist_name variable to create a bar chart showing the number of playlists each artist appears in. The bars are color-coded for better distinction.
+

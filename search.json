@@ -88,7 +88,7 @@
     "href": "blog-listing.html",
     "title": "AJ’s Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nBeer Markets\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nByeong-Hak Choe\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nOct 27, 2023\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nAJ\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nSpotify\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nAJ Forte\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\nNYC Restaurants\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nAJ Forte\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nBeer Markets\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nByeong-Hak Choe\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -123,6 +123,55 @@
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Welcome to my corner of the internet! I’m AJ Forte, a dedicated Accounting major at the State University of New York at Geneseo, with a passion for numbers, a zest for learning, and a love for the game of basketball. As I take my first step into the digital realm, I’m excited to share my journey, experiences, and insights on this platform.\n\n\n\nMy pursuit of knowledge in the field of Accounting kicked off in August 2022 when I enrolled at SUNY Geneseo. The path to a B.S. in Accounting has been nothing short of exhilarating. From the intricacies of financial statements to the complexities of taxation, every class has been a stepping stone towards a more profound understanding of the financial world.\nBut the journey doesn’t stop there. With an expected graduation date in May 2026, I am determined to leverage my education to make a tangible impact in the world of finance. The ultimate goal? Attaining the coveted Certified Public Accountant (CPA) designation, a milestone that represents not just professional competence but a commitment to the highest standards of integrity and ethics.\n\n\n\nWhile the academic realm shapes my mind, I find balance in the world outside textbooks. One of my greatest joys is spending quality time with friends, forging connections beyond the classroom. These relationships not only provide a welcome respite from the rigors of academia but also contribute to my personal growth.\nAnd then there’s basketball – a sport that has been a constant companion throughout my life. Whether it’s playing pickup at the park or getting involved with my school’s club team, basketball is more than just a pastime for me. It’s a metaphor for teamwork, strategy, and perseverance, qualities that transcend the court and seamlessly integrate into the fabric of life.\n\n\n\nAs I navigate the academic landscape, I’ve also had the privilege of gaining real-world experience. Currently, I serve as an Administrator at a Dermatologist’s office, where my role extends beyond the realms of accounting. This internship has been a valuable opportunity to apply theoretical knowledge in a practical setting, providing me with insights into the day-to-day operations of a business.\nThis blog will serve as a chronicle of my journey – a mix of academic insights, personal reflections, and anecdotes from the professional sphere. I invite you to join me on this adventure as I strive for academic excellence, seek personal growth, and navigate the intricate world of accounting.\nThank you for stepping into my virtual space. I’m excited to connect, share, and learn together.\nCheers to new beginnings!\nAJ Forte"
+  },
+  {
+    "objectID": "posts/welcome/index.html#beyond-the-classroom",
+    "href": "posts/welcome/index.html#beyond-the-classroom",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "While the academic realm shapes my mind, I find balance in the world outside textbooks. One of my greatest joys is spending quality time with friends, forging connections beyond the classroom. These relationships not only provide a welcome respite from the rigors of academia but also contribute to my personal growth.\nAnd then there’s basketball – a sport that has been a constant companion throughout my life. Whether it’s playing pickup at the park or getting involved with my school’s club team, basketball is more than just a pastime for me. It’s a metaphor for teamwork, strategy, and perseverance, qualities that transcend the court and seamlessly integrate into the fabric of life."
+  },
+  {
+    "objectID": "posts/welcome/index.html#professional-footprints",
+    "href": "posts/welcome/index.html#professional-footprints",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "As I navigate the academic landscape, I’ve also had the privilege of gaining real-world experience. Currently, I serve as an Administrator at a Dermatologist’s office, where my role extends beyond the realms of accounting. This internship has been a valuable opportunity to apply theoretical knowledge in a practical setting, providing me with insights into the day-to-day operations of a business.\nThis blog will serve as a chronicle of my journey – a mix of academic insights, personal reflections, and anecdotes from the professional sphere. I invite you to join me on this adventure as I strive for academic excellence, seek personal growth, and navigate the intricate world of accounting.\nThank you for stepping into my virtual space. I’m excited to connect, share, and learn together.\nCheers to new beginnings!\nAJ Forte"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "AJ Forte",
+    "section": "",
+    "text": "AJ Forte majors in Accounting at SUNY Geneseo. While aiming to acquire his CPA, AJ enjoys spending time with friends and playing basketball."
+  },
+  {
+    "objectID": "posts/welcome/index.html#the-academic-odyssey",
+    "href": "posts/welcome/index.html#the-academic-odyssey",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "My pursuit of knowledge in the field of Accounting kicked off in August 2022 when I enrolled at SUNY Geneseo. The path to a B.S. in Accounting has been nothing short of exhilarating. From the intricacies of financial statements to the complexities of taxation, every class has been a stepping stone towards a more profound understanding of the financial world.\nBut the journey doesn’t stop there. With an expected graduation date in May 2026, I am determined to leverage my education to make a tangible impact in the world of finance. The ultimate goal? Attaining the coveted Certified Public Accountant (CPA) designation, a milestone that represents not just professional competence but a commitment to the highest standards of integrity and ethics."
+  },
+  {
+    "objectID": "posts/spotify-all/spotify-all.html",
+    "href": "posts/spotify-all/spotify-all.html",
+    "title": "Spotify",
+    "section": "",
+    "text": "Let’s analyze the `restaurant_data`` data:\nspotify_data &lt;- read_csv(\"https://bcdanl.github.io/data/spotify_all.csv\")"
+  },
+  {
+    "objectID": "posts/spotify-all/spotify-all.html#variable-description-for-restaurant_data-data.frame",
+    "href": "posts/spotify-all/spotify-all.html#variable-description-for-restaurant_data-data.frame",
+    "title": "Spotify",
+    "section": "Variable Description for `restaurant_data`` data.frame",
+    "text": "Variable Description for `restaurant_data`` data.frame\nThe following describes the variables in the `restaurant_data`` data.frame.\n\npid: playlist ID; unique ID for playlist\nplaylist_name: a name of playlist\npos: a position of the track within a playlist (starting from 0)\nartist_name: name of the track’s primary artist\ntrack_name: name of the track\nduration_ms: duration of the track in milliseconds\nalbum_name: name of the track’s album"
+  },
+  {
+    "objectID": "posts/spotify-all/spotify-all.html#purchase-patterns",
+    "href": "posts/spotify-all/spotify-all.html#purchase-patterns",
+    "title": "Spotify",
+    "section": "Purchase Patterns",
+    "text": "Purchase Patterns\nWe’ll delve into the relationship between playlist position (pos) and the ten most popular artists in the spotify dataset. The analysis involves identifying and ranking these artists based on their frequency of occurrence. Here are key insights derived from the subsequent histogram visualization:\n\nDistribution Pattern\nEarly Playlist Placement\nConsistency Across Artists\n\nThis analysis provides valuable insights into user preferences regarding the positioning of songs by popular artists within playlists, shedding light on the dynamics of playlist curation. The next steps will involve further exploration and visualizations to deepen our understanding of these patterns. Let’s continue the exploration by examining average quantity purchased and spending habits per purchase across brands.\n\nbest_artists &lt;- spotify_data %&gt;% \n  group_by(artist_name) %&gt;% \n  mutate(n_popular_artist = n()) %&gt;% \n  ungroup() %&gt;% \n  mutate( artist_ranking = dense_rank( desc(n_popular_artist) ) ) %&gt;% \n  filter( artist_ranking &lt;= 10) \n\n\nggplot(best_artists,\n       aes(x = pos, y = fct_reorder(artist_name, -artist_ranking)) ) +\n  geom_boxplot() +\n  stat_summary(\n    fun = mean,\n    color = 'red'\n  )\n\n\n\n\nThe provided ggplot code generates a boxplot to visualize the distribution of the variable pos (position of a song in a playlist) across different artists in the Q1c dataset. The y-axis is reordered based on the ranking of artists (artist_ranking), displaying the data for each artist in a descending order.\nPosition Spread: The boxplot shows the distribution of pos values for each artist, providing a visual representation of the spread and central tendency of playlist positions.\nMedian Line: The line inside each box represents the median position of songs for the respective artist.\nInterquartile Range (IQR): The boxes indicate the IQR, depicting the range where the majority of playlist positions lie.\nOutliers: Any points beyond the whiskers of the boxplot are considered outliers, showing instances where playlist positions deviate significantly from the norm for a given artist.\nNow, this next plot will show the relationship between playlist positions and the duration of the tracks\n\nggplot(spotify_data, aes(x = pos, y = duration_ms)) +\n  geom_point(color = 'blue', alpha = 0.7) +\n  labs(title = 'Scatter Plot of Playlist Positions and Track Durations',\n       x = 'Playlist Position',\n       y = 'Track Duration (ms)') +\n  scale_y_continuous(labels = scales::comma_format(scale = 1e-3, suffix = 's'))\n\n\n\n\nThis scatter plot visualizes the relationship between playlist positions (pos) and track durations (duration_ms). Each point represents a track, and the color and transparency add a visual flair to the distribution.\nNext, we’ll look at the top 5 artist on Spotify solely judged by their playlist frequency\n\ntop_artists &lt;- spotify_data %&gt;%\n  group_by(artist_name) %&gt;%\n  summarise(playlist_count = n()) %&gt;%\n  arrange(desc(playlist_count)) %&gt;%\n  slice_head(n = 5)\n\nggplot(top_artists, aes(x = fct_reorder(artist_name, playlist_count), y = playlist_count)) +\n  geom_bar(stat = 'identity', fill = 'green') +\n  labs(title = 'Top 5 Artists by Playlist Frequency',\n       x = 'Artist Name',\n       y = 'Number of Playlists')\n\n\n\n\nThis bar chart identifies and visualizes the top 10 artists with the highest playlist frequency. It uses the artist_name variable to create a bar chart showing the number of playlists each artist appears in. The bars are color-coded for better distinction."
   }
 ]
