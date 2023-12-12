@@ -3,7 +3,7 @@ title: "NYC Restaurants"
 author: "AJ Forte"
 date: "2023-12-11"
 categories: [Restaurants, code, data analysis]
-image: ""
+image: "ai_city.png"
 
 execute: 
   warning: false
@@ -145,6 +145,8 @@ I'll begin with these analyses and create visualizations to help us understand t
 restaurant_data %>% group_by(GRADE) %>% skim(SCORE) %>% select(-n_missing)
 ```
 
+#Critical Grading
+
 Starting off with a histogram showing the distribution of scores varies by grade and critical flag
 
 ```{r}
@@ -160,6 +162,7 @@ The values of SCORE for GRADE B ranges 13 to 27.
 The values of SCORE for GRADE C ranges 24 to 75.
 For Not Critical type, two SCORE values around 1 and 12 are most common, while 12 is the single most common SCORE value for Critical type.
 
+# Proportions
 
 Now, let's visualize the proportion of grade and borough
 
@@ -167,13 +170,17 @@ Now, let's visualize the proportion of grade and borough
 ggplot(restaurant_data) +
   geom_bar(aes(x = `CRITICAL FLAG`,
                y = after_stat(prop), group = 1)) +
-  facet_grid( GRADE ~ BORO )
+  facet_grid( GRADE ~ BORO ) +
+  theme(axis.text.x = element_text(angle = 90))
 ```
 
 This simply depicts:
 - For GRADE A, the probability distribution of CRITICAL FLAG are similar across BOROs.
 - For GRADE B, the restaurants in Staten Island are more likely to be Critical than in other BOROs.
 - For GRADE C, the restaurants in Bronx are more likely to be Critical than in other BOROs.
+
+
+#Distribution of Grades
 
 Next, we'll look at the total grades and what they are based on the different boroughs around the city
 
@@ -182,12 +189,10 @@ library(ggplot2)
 
 ggplot(restaurant_data, aes(x = GRADE, fill = as.factor(BORO))) +
   geom_bar(position = "stack") +
-  labs(title = 'Distribution of Grades by Borough',
-       x = 'Grade',
+  labs(x = 'Grade',
        y = 'Count',
        fill = 'Borough') +
-  scale_fill_brewer(palette = "Set3") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  scale_fill_brewer(palette = "Set3")
 
 ```
 

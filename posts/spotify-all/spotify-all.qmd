@@ -2,8 +2,8 @@
 title: "Spotify"
 author: "AJ Forte"
 date: "2023-12-11"
-categories: [Restaurants, code, data analysis]
-image: ""
+categories: [Music, Streaming, code, data analysis]
+image: "ai_spotify.png"
 
 execute: 
   warning: false
@@ -43,7 +43,6 @@ spotify_data <- read_csv("https://bcdanl.github.io/data/spotify_all.csv")
 
 
 ```{r}
-#| results: asis
 rmarkdown::paged_table(spotify_data) 
 ```
 
@@ -100,7 +99,9 @@ ggplot(best_artists,
   stat_summary(
     fun = mean,
     color = 'red'
-  )
+  ) +
+   labs(y = 'Artist Names',
+       x = 'Artist Ranking')
 ```
 
 
@@ -115,18 +116,21 @@ Interquartile Range (IQR): The boxes indicate the IQR, depicting the range where
 Outliers: Any points beyond the whiskers of the boxplot are considered outliers, showing instances where playlist positions deviate significantly from the norm for a given artist.    
 
 
+# Playlist Positions
+
 Now, this next plot will show the relationship between playlist positions and the duration of the tracks
 
 ```{r}
 ggplot(spotify_data, aes(x = pos, y = duration_ms)) +
   geom_point(color = 'blue', alpha = 0.7) +
-  labs(title = 'Scatter Plot of Playlist Positions and Track Durations',
-       x = 'Playlist Position',
+  labs(x = 'Playlist Position',
        y = 'Track Duration (ms)') +
   scale_y_continuous(labels = scales::comma_format(scale = 1e-3, suffix = 's'))
 ```
 
 This scatter plot visualizes the relationship between playlist positions (pos) and track durations (duration_ms). Each point represents a track, and the color and transparency add a visual flair to the distribution.
+
+# Artist Frequency
 
 Next, we'll look at the top 5 artist on Spotify solely judged by their playlist frequency
 
@@ -139,9 +143,9 @@ top_artists <- spotify_data %>%
 
 ggplot(top_artists, aes(x = fct_reorder(artist_name, playlist_count), y = playlist_count)) +
   geom_bar(stat = 'identity', fill = 'green') +
-  labs(title = 'Top 5 Artists by Playlist Frequency',
-       x = 'Artist Name',
-       y = 'Number of Playlists')
+  labs(x = 'Artist Name',
+       y = 'Number of Playlists') +
+  theme(axis.text.x = element_text(angle = 45))
 ```
 
 
