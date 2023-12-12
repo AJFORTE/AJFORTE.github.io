@@ -1,11 +1,35 @@
 ---
 title: "Welcome To My Blog"
-author: "YOUR NAME"
-date: "2023-10-27"
+author: "AJ"
+date: "2023-12-11"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+
+# Embarking on the Accounting Journey: A Prelude to Success
+
+Welcome to my corner of the internet! I'm AJ Forte, a dedicated Accounting major at the State University of New York at Geneseo, with a passion for numbers, a zest for learning, and a love for the game of basketball. As I take my first step into the digital realm, I'm excited to share my journey, experiences, and insights on this platform.
+
+The Academic Odyssey
+My pursuit of knowledge in the field of Accounting kicked off in August 2022 when I enrolled at SUNY Geneseo. The path to a B.S. in Accounting has been nothing short of exhilarating. From the intricacies of financial statements to the complexities of taxation, every class has been a stepping stone towards a more profound understanding of the financial world.
+
+But the journey doesn't stop there. With an expected graduation date in May 2026, I am determined to leverage my education to make a tangible impact in the world of finance. The ultimate goal? Attaining the coveted Certified Public Accountant (CPA) designation, a milestone that represents not just professional competence but a commitment to the highest standards of integrity and ethics.
+
+Beyond the Classroom
+While the academic realm shapes my mind, I find balance in the world outside textbooks. One of my greatest joys is spending quality time with friends, forging connections beyond the classroom. These relationships not only provide a welcome respite from the rigors of academia but also contribute to my personal growth.
+
+And then there's basketball – a sport that has been a constant companion throughout my life. Whether it's shooting hoops in the driveway or engaging in a friendly game at the local court, basketball is more than just a pastime for me. It's a metaphor for teamwork, strategy, and perseverance, qualities that transcend the court and seamlessly integrate into the fabric of life.
+
+Professional Footprints
+As I navigate the academic landscape, I've also had the privilege of gaining real-world experience. Currently, I serve as an Administrator at a Dermatologist's office, where my role extends beyond the realms of accounting. This internship has been a valuable opportunity to apply theoretical knowledge in a practical setting, providing me with insights into the day-to-day operations of a business.
+
+This blog will serve as a chronicle of my journey – a mix of academic insights, personal reflections, and anecdotes from the professional sphere. I invite you to join me on this adventure as I strive for academic excellence, seek personal growth, and navigate the intricate world of accounting.
+
+Thank you for stepping into my virtual space. I'm excited to connect, share, and learn together.
+
+Cheers to new beginnings!
+
+AJ Forte
 
 ![](thumbnail.jpg)
 
